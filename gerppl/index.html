@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Project</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <style type="text/css">
+    html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background-color: black;
+}
+
+
+
+.about hr {
+    width: 200px;
+    border-top: 3px solid #999; 
+}
+
+.poster hr {
+    width: 200px;
+    border-top: 3px solid #999; 
+}
+
+.batas hr {
+    height: 100px;
+    vertical-align: 200px;
+}
+
+section {
+    min-height: 600px;
+    color: pink;
+}
+
+.jumbotron {
+    background-color: white;
+    color: black; 
+    height: 450px;
+}
+
+.background {
+    background-color: #000000;
+    height: 200px;
+}
+
+.main-menu-area {}
+.logo {
+    margin-top: 2px;
+}
+.logo a {
+    color: #444444;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main-menu {}
+.main-menu ul {}
+.main-menu ul li {
+    display: inline-block;
+}
+.main-menu ul li a {
+    color: #444444;
+    font-weight: 700;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    padding-top: 40px;
+    color: #999;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+footer p i {
+    color: pink;
+}
+
+</style>
+  </head>
+  <body bgcolor="black">
+
+   
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+
+		<div class="container-fluid">
+			<div class="navbar-header">
+				
+                <a href="" class="navbar-brand"></a>
+                <a href="" class="navbar-brand"><img src="img/apple.png" width="15"></a>
+                
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Product Information</a></li>
+                    <li><a href="#">Costumer Support</a></li>
+                    <li><a href="#">Technology & Research</a></li>
+                    <li><a href="#">Developer World</a></li>
+                    <li><a href="#">Groups & Interest</a></li>
+                    <li><a href="#">Resources Online</a></li>
+                    <li><a href="#">About Apple</a></li>
+                    <li><a href="#"><div id="clock">
+        <script type='text/javascript'>
+            var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+            var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+            var date = new Date();
+            var day = date.getDate();
+            var month = date.getMonth();
+            var thisDay = date.getDay(),
+                thisDay = myDays[thisDay];
+            var yy = date.getYear();
+            var year = (yy < 1000) ? yy + 1900 : yy;
+            document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+        </script>
+    </div></a></li>
+                </ul>
+			</div>
+
+		</div>
+	</nav>
+
+    <div class="jumbotron text-center">
+    	<br>
+    	<br>
+    	<h1>Welcome To The Future</h1>
+    	<h4>Iphone 11 Pro Max</h4>
+    	<h4>THE FUTURE AT YOUR HANDS</h4>
+    	<!-- Standard button -->
+        <form>
+            <input type="text" name="find" placeholder="Temukan ...">
+            <button type="button" class="btn btn-dark">Temukan</button>
+        </form>
+		
+		
+    </div>
+
+    <section class="about" id="about" background-color="black">
+    	<div class="container">
+    		
+
+    		<div class="row">
+    			<div class="col-sm-6">
+    				
+        <img src="img/iphone11.jpg" width="500" height="316">
+    				<hr>
+    			</div>
+
+    			<div class="col-sm-6">
+                    <h4>Chip</h4>
+                    <h1>Chip A13 Bionic
+Neural Engine generasi ketiga</h1>
+                    <hr>
+
+    				<p>Performa Pro
+Chip yang begitu canggih, kami pun masih terus terpukau akan kemampuannya.
+Kami merancang khusus A13 Bionic dengan fokus pada pembelajaran mesin di keseluruhan bagian chip — memungkinkan pengalaman yang tidak ditemukan di ponsel pintar lain. Bahkan, begitu cepat, andal, dan cerdas, jauh lebih maju daripada chip lain. Sehingga memberi Anda keunggulan tak tertandingi.</p>
+
+    				<button type="button" class="btn btn-default-circle">Baca Lebih Banyak Tentang Iphone 11 Pro Max...</button>
+    			</div>
+    		</div>
+    </section>
+        <div class="banner">
+        
+    </div>
+    <footer>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-12">
+    				<p>Copyright &copy; 2020 | Built With By <a href="https://twitter.com/geraldallamra">Gerald Allamra</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+  </body>
+</html>
